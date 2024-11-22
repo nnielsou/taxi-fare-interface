@@ -3,8 +3,8 @@
 const taxiFareApiUrl = 'https://taxifare-702137860984.europe-west1.run.app'; // replace with your API endpoint
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
-if (window.location.href.includes('https://taxifare.lewagon.com')) {
-  taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+if (window.location.href.includes('https://taxifare-702137860984.europe-west1.run.app')) {
+  taxiFareApiUrl = 'https://taxifare-702137860984.europe-west1.run.app/predict';
 }
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
